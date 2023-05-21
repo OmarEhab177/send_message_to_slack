@@ -11,7 +11,7 @@ def send_slack_message():
     client = WebClient(token=slack_token)
 
     # Specify the channel and message to send
-    channel = '#test_hello_world'
+    channel = '#random'
     message = 'Hello World'
 
     try:
